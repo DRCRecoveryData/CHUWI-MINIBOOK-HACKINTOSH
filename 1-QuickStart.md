@@ -7,7 +7,7 @@
 4. Boot from this usb then install macOS on the partition you created (please note...must be installed to ssd as macos does not detect emmc)
 5. During first boot, after installing the OS, mount your EFI partition and copy over your Clover or OpenCore folders along with your BOOT folder found in the EFI folder on your install usb; you must copy/overwrite the same folders on the same partition located on your SSD.
 6. Reboot and change BIOS bootloader order to have Clover or OpenCore bootloader as first entry
-7. Open your config.plist and generate a new serial number [Tutorial here](https://hackintosher.com/forums/thread/generate-your-own-hackintosh-serial-number-board-serial-number-uuid-mlb-rom-in-clover.306/)
+7. Open your config.plist and generate a new serial number [Tutorial here]([https://hackintosher.com/forums/thread/generate-your-own-hackintosh-serial-number-board-serial-number-uuid-mlb-rom-in-clover.306/](https://web.archive.org/web/20201125170833/https://hackintosher.com/forums/thread/generate-your-own-hackintosh-serial-number-board-serial-number-uuid-mlb-rom-in-clover.306/))
 8. Enable Full Sleep Button Support by following instructions in Chapter 5 titled "Enabling Reliable Sleep Button Support"
 9. Install any additional software and drivers if needed for your specific needs
 10. Reboot and enjoy!
